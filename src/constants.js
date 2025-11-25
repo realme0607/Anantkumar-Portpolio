@@ -5,9 +5,9 @@ export const RESUME_DATA = {
   about: "Analytical and motivated Computer Science Engineering student (B.E., 2025) with strong proficiency in Python (Pandas, NumPy, PyTorch), SQL, and Power BI. Experienced in building dashboards and automating reports. Passionate about Data Analytics and BI.",
   intro: "Hi, I'm Anantkumar Saunshi. I turn raw data into actionable business insights.",
   location: "Bangalore, Karnataka",
-  email: "anantbs2323@gmail.com",
+  email: "msdabs07@gmail.com",
   contact: {
-    email: "anantbs2323@gmail.com",
+    email: "msdabs07@gmail.com",
     phone: "+91-6361569670",
     linkedin: "https://www.linkedin.com/in/anantkumar-saunshi",
     github: "https://github.com/anantbs2323"
