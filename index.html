@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anantkumar Saunshi | Data Analyst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0a192f',
+              800: '#112240',
+            },
+            teal: {
+              400: '#2dd4bf',
+              900: '#134e4a',
+            },
+            cyan: {
+              400: '#22d3ee',
+              900: '#164e63',
+            },
+            purple: {
+              400: '#c084fc',
+            }
+          },
+          fontFamily: {
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+            sans: ['ui-sans-serif', 'system-ui', '-apple-system', "Segoe UI", 'Roboto', "Helvetica Neue", 'Arial', "Noto Sans", 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <script type="importmap">
+{
+  "imports": {
+
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/src/index.css">
+</head>
+
+<body class="bg-slate-900 text-white overflow-x-hidden antialiased selection:bg-teal-400 selection:text-navy-900">
+  <div id="root"></div>
+  <script type="module" src="/src/index.jsx"></script>
+</body>
+
+</html>
